@@ -18,7 +18,7 @@
 }
 
 body{
-    font-family: 'Heebo', serif;
+    font-family: Heebo, serif;
     width: 1152px;
     color: #21243D;
     margin-left: auto;
@@ -114,9 +114,15 @@ h2{
 }
 
 .posts ul li{
-    padding: 10px;
+    padding-left: 25px;
+    padding-right: 40px;
+    padding-bottom: 25px;
     border-radius: 4px;
     background: white;
+}
+
+.posts ul li p{
+    padding-right: 40px;;
 }
 
 .posts ul li:hover{
@@ -132,7 +138,7 @@ h2{
     display: grid;
     padding: 0;
     margin: 0;
-    grid-gap: 30px;
+    grid-gap: 10px;
     grid-template-rows: auto ;
 }
 
@@ -176,6 +182,7 @@ h2{
 .works ul li h4{
     position: relative;
     bottom: 25px;
+    right: 75px;
     font-size: 20px;
     grid-area: E;
     color: #8695A4;
@@ -187,7 +194,8 @@ h2{
 
 .works-ul-li-text{
     position: relative;
-    bottom: 30px;
+    bottom: 50px;
+    width: 580px;
     grid-area: F;
 }
 
@@ -202,7 +210,6 @@ h2{
     color: white;
     text-align: center;
     text-decoration: none;
-
 }
 
 .main-footer{
